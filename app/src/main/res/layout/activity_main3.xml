@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.jc.myapplication.Main3Activity">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/background" />
+
+    <TextView
+        android:id="@+id/dateView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="24dp"
+        android:text="TextView"
+        android:textSize="15dp"
+        android:textColor="#fafafa"/>
+
+    <TextView
+        android:id="@+id/cityView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/dateView3"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="24dp"
+        android:text="TextView"
+        android:textSize="15dp"
+        android:textColor="#fafafa"/>
+
+    <TextView
+        android:id="@+id/tempView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/dateView3"
+        android:layout_marginTop="122dp"
+        android:layout_toStartOf="@+id/imageView8"
+        android:text="TextView"
+        android:textColor="#fafafa"
+        android:textSize="80dp" />
+
+    <TextView
+        android:id="@+id/desView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tempView3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="98dp"
+        android:text="TextView"
+        android:textColor="#fafafa"
+        android:textSize="25dp" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/cityView3"
+        android:layout_alignTop="@+id/tempView3"
+        android:scaleType="center"
+        app:srcCompat="@drawable/if_weather_21_2682830" />
+
+
+</RelativeLayout>

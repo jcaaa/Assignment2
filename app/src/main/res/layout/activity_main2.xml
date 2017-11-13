@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.jc.myapplication.Main2Activity">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/background" />
+
+    <TextView
+        android:id="@+id/dateView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="24dp"
+        android:text="TextView"
+        android:textSize="15dp"
+        android:textColor="#fafafa"/>
+
+    <TextView
+        android:id="@+id/cityView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/dateView2"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="24dp"
+        android:text="TextView"
+        android:textSize="15dp"
+        android:textColor="#fafafa"/>
+
+    <TextView
+        android:id="@+id/tempView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/imageView7"
+        android:layout_marginTop="25dp"
+        android:layout_toStartOf="@+id/imageView7"
+        android:text="TextView"
+        android:textColor="#fafafa"
+        android:textSize="80dp" />
+
+    <TextView
+        android:id="@+id/desView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="68dp"
+        android:text="TextView"
+        android:textColor="#fafafa"
+        android:textSize="25dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="44dp"
+        android:background="#c7c7c7"
+        android:text="Next"
+        android:textColor="#fafafa"
+        android:textSize="20dp" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/desView2"
+        android:layout_marginBottom="46dp"
+        android:layout_toEndOf="@+id/button2"
+        android:scaleType="center"
+        app:srcCompat="@drawable/if_weather_21_2682830" />
+
+
+</RelativeLayout>
